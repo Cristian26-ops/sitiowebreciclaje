@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Divs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6; /* Espaciado entre líneas */
+            background-color: #fafafa; /* Fondo suave */
+            color: #110404; /* Texto oscuro */
+            margin: 0; /* Quita los márgenes del body */
+            padding: 0; /* Quita el padding por defecto */
+        }
+
+        .header {
+            background-color: rgb(183, 224, 150);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        /* Barra de navegación */
+        nav {
+            background-color: #333; /* Fondo oscuro */
+            overflow: hidden; /* Para evitar problemas con el contenido */
+        }
+
+        nav a {
+            float: left; /* Los enlaces van alineados a la izquierda */
+            display: block; /* Los enlaces ocupan todo el espacio del botón */
+            color: white; /* Texto blanco */
+            text-align: center; /* Centra el texto dentro del enlace */
+            padding: 14px 20px; /* Espaciado interno */
+            text-decoration: none; /* Sin subrayado */
+        }
+
+        nav a:hover {
+            background-color: #dddddd; /* Cambia de color al pasar el ratón */
+        }
+
+        .footer {
+            background-color: rgb(17, 146, 129);
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- Sección de la cabecera -->
+    <header class="header">
+        <h1>RECICLAJE A LA VISTA</h1>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <p>Este es el contenido principal de la página.</p>
+    </div>
+
+    <!-- Pie de página -->
+    <div class="footer">
+        <p>© 2024 - Todos los derechos reservados</p>
+    </div>
+</body>
+</html>
